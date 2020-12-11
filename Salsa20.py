@@ -20,11 +20,11 @@ def word_search_XOR(word,xored_res):
 
 
 def main ():
-    line_n1 = b'ad924af7a9cdaf3a1bb0c3fe1a20a3f367d82b0f05f8e75643ba688ea2ce8ec88f4762fbe93b50bf5138c7b699'
-    line_n2 = b'a59a0eaeb4d1fc325ab797b31425e6bc66d36e5b18efe8060cb32edeaad68180db4979ede43856a24c7d'
+    line_n1 = b'ad924aefaad4af341fb0c3f0143ea8a728c1275b05bdff4916f92eccb6d6c286994672a9bd2356f15224cab9d1'
+    line_n2 = b'ad924af7a9cdaf3a1bb0c3f51227aaf37cde2b0f18f3e04911b267d8aacc85c89b4179fcbd29'
     output_XOR_lines = XOR_math(line_n1,line_n2)
-    word_search_XOR('if ',output_XOR_lines)
-    print(output_XOR_lines)
+    word_search_XOR('minute',output_XOR_lines)
+    print(output_XOR_lines.decode('ascii'))
 '''
     most_popular_words = ['time', 'be', 'good', 'to', 'the', 'person', 'have', 'new', 'of', 'and', 'year', 'do', 'first', 'in', 'a', 'way', 'say', 'last',
                           'for', 'that' , 'day', 'get', 'long', 'on', 'I', 'thing', 'make', 'great'  ,  'with'   , 'it', 'man', 'go', 'little', 'at', 'not',
